@@ -32,3 +32,10 @@ for (let i = 0; i < favouriteFoods.length; i++) {
   console.log(favouriteFoods[i]);
 }
 //in this example favouriteFoods.length = 4 as there are 4 items in the array.
+
+//create a for...of loop. this loop is more concise than a for loop but it doesn't give you access to the index of the item in the array
+
+const favouriteNumbers = [4, 8, 15, 16, 23, 42, Infinity];
+for (let number of favouriteNumbers) {
+  console.log(number);
+}
